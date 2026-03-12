@@ -1,0 +1,406 @@
+[
+  {
+    "officer_id": "OFC001",
+    "name": "Chatura Halder",
+    "department": "Infrastructure",
+    "skills": [
+      "road repair",
+      "streetlight",
+      "bridge maintenance",
+      "traffic signals"
+    ],
+    "experience_years": 13,
+    "current_workload": 7,
+    "max_workload": 10,
+    "avg_resolution_days": 4.6,
+    "languages_known": [
+      "English",
+      "Malayalam",
+      "Marathi"
+    ],
+    "past_complaints_handled": 302,
+    "performance_score": 0.6
+  },
+  {
+    "officer_id": "OFC002",
+    "name": "Naksh Mani",
+    "department": "Infrastructure",
+    "skills": [
+      "pothole",
+      "paving",
+      "streetlight",
+      "bridge maintenance"
+    ],
+    "experience_years": 2,
+    "current_workload": 6,
+    "max_workload": 10,
+    "avg_resolution_days": 6.7,
+    "languages_known": [
+      "English"
+    ],
+    "past_complaints_handled": 74,
+    "performance_score": 0.77
+  },
+  {
+    "officer_id": "OFC003",
+    "name": "Victor Suri",
+    "department": "Infrastructure",
+    "skills": [
+      "pothole",
+      "streetlight",
+      "paving"
+    ],
+    "experience_years": 13,
+    "current_workload": 2,
+    "max_workload": 10,
+    "avg_resolution_days": 8.2,
+    "languages_known": [
+      "English",
+      "Malayalam"
+    ],
+    "past_complaints_handled": 49,
+    "performance_score": 0.72
+  },
+  {
+    "officer_id": "OFC004",
+    "name": "Maanav Randhawa",
+    "department": "Infrastructure",
+    "skills": [
+      "pothole",
+      "streetlight"
+    ],
+    "experience_years": 12,
+    "current_workload": 5,
+    "max_workload": 10,
+    "avg_resolution_days": 3.0,
+    "languages_known": [
+      "English"
+    ],
+    "past_complaints_handled": 84,
+    "performance_score": 0.65
+  },
+  {
+    "officer_id": "OFC005",
+    "name": "Chakrika Jhaveri",
+    "department": "Sanitation",
+    "skills": [
+      "sewage",
+      "waste management",
+      "public toilets"
+    ],
+    "experience_years": 10,
+    "current_workload": 7,
+    "max_workload": 10,
+    "avg_resolution_days": 3.3,
+    "languages_known": [
+      "English",
+      "Malayalam",
+      "Marathi"
+    ],
+    "past_complaints_handled": 456,
+    "performance_score": 0.67
+  },
+  {
+    "officer_id": "OFC006",
+    "name": "Ayush Kadakia",
+    "department": "Sanitation",
+    "skills": [
+      "drainage",
+      "garbage collection"
+    ],
+    "experience_years": 9,
+    "current_workload": 4,
+    "max_workload": 10,
+    "avg_resolution_days": 6.1,
+    "languages_known": [
+      "English"
+    ],
+    "past_complaints_handled": 381,
+    "performance_score": 0.98
+  },
+  {
+    "officer_id": "OFC007",
+    "name": "Shivani Palla",
+    "department": "Sanitation",
+    "skills": [
+      "sweeping",
+      "garbage collection",
+      "waste management"
+    ],
+    "experience_years": 6,
+    "current_workload": 7,
+    "max_workload": 10,
+    "avg_resolution_days": 1.9,
+    "languages_known": [
+      "English"
+    ],
+    "past_complaints_handled": 90,
+    "performance_score": 0.87
+  },
+  {
+    "officer_id": "OFC008",
+    "name": "Watika Hayre",
+    "department": "Sanitation",
+    "skills": [
+      "sweeping",
+      "drainage",
+      "garbage collection",
+      "public toilets"
+    ],
+    "experience_years": 11,
+    "current_workload": 0,
+    "max_workload": 10,
+    "avg_resolution_days": 9.4,
+    "languages_known": [
+      "English",
+      "Malayalam",
+      "Hindi"
+    ],
+    "past_complaints_handled": 210,
+    "performance_score": 0.69
+  },
+  {
+    "officer_id": "OFC009",
+    "name": "Frederick Raghavan",
+    "department": "Water Supply",
+    "skills": [
+      "pump maintenance",
+      "borewell",
+      "tanker supply"
+    ],
+    "experience_years": 11,
+    "current_workload": 4,
+    "max_workload": 10,
+    "avg_resolution_days": 6.8,
+    "languages_known": [
+      "English",
+      "Malayalam"
+    ],
+    "past_complaints_handled": 344,
+    "performance_score": 0.91
+  },
+  {
+    "officer_id": "OFC010",
+    "name": "Ayaan Keer",
+    "department": "Water Supply",
+    "skills": [
+      "pump maintenance",
+      "pipeline leakage"
+    ],
+    "experience_years": 9,
+    "current_workload": 2,
+    "max_workload": 10,
+    "avg_resolution_days": 8.8,
+    "languages_known": [
+      "English",
+      "Marathi",
+      "Malayalam"
+    ],
+    "past_complaints_handled": 42,
+    "performance_score": 0.84
+  },
+  {
+    "officer_id": "OFC011",
+    "name": "Indira Rai",
+    "department": "Water Supply",
+    "skills": [
+      "pipeline leakage",
+      "plumbing",
+      "water quality",
+      "tanker supply"
+    ],
+    "experience_years": 8,
+    "current_workload": 7,
+    "max_workload": 10,
+    "avg_resolution_days": 5.5,
+    "languages_known": [
+      "English",
+      "Marathi",
+      "Malayalam"
+    ],
+    "past_complaints_handled": 439,
+    "performance_score": 0.62
+  },
+  {
+    "officer_id": "OFC012",
+    "name": "Jalsa Chander",
+    "department": "Electricity",
+    "skills": [
+      "wiring",
+      "transformer",
+      "voltage regulation"
+    ],
+    "experience_years": 1,
+    "current_workload": 8,
+    "max_workload": 10,
+    "avg_resolution_days": 2.4,
+    "languages_known": [
+      "English",
+      "Malayalam",
+      "Hindi"
+    ],
+    "past_complaints_handled": 74,
+    "performance_score": 0.81
+  },
+  {
+    "officer_id": "OFC013",
+    "name": "Tristan Kari",
+    "department": "Electricity",
+    "skills": [
+      "pole maintenance",
+      "power grid",
+      "wiring",
+      "voltage regulation"
+    ],
+    "experience_years": 5,
+    "current_workload": 2,
+    "max_workload": 10,
+    "avg_resolution_days": 4.6,
+    "languages_known": [
+      "English",
+      "Hindi"
+    ],
+    "past_complaints_handled": 491,
+    "performance_score": 0.62
+  },
+  {
+    "officer_id": "OFC014",
+    "name": "Charles Rau",
+    "department": "Electricity",
+    "skills": [
+      "power grid",
+      "transformer",
+      "pole maintenance"
+    ],
+    "experience_years": 13,
+    "current_workload": 5,
+    "max_workload": 10,
+    "avg_resolution_days": 2.2,
+    "languages_known": [
+      "English"
+    ],
+    "past_complaints_handled": 341,
+    "performance_score": 0.93
+  },
+  {
+    "officer_id": "OFC015",
+    "name": "Ekbal Dass",
+    "department": "Health",
+    "skills": [
+      "health camp",
+      "ambulance dispatch",
+      "vaccination",
+      "fogging"
+    ],
+    "experience_years": 10,
+    "current_workload": 3,
+    "max_workload": 10,
+    "avg_resolution_days": 4.1,
+    "languages_known": [
+      "English",
+      "Malayalam",
+      "Marathi"
+    ],
+    "past_complaints_handled": 201,
+    "performance_score": 0.85
+  },
+  {
+    "officer_id": "OFC016",
+    "name": "Tristan Kadakia",
+    "department": "Health",
+    "skills": [
+      "medical supplies",
+      "vaccination",
+      "fogging"
+    ],
+    "experience_years": 4,
+    "current_workload": 5,
+    "max_workload": 10,
+    "avg_resolution_days": 9.8,
+    "languages_known": [
+      "English",
+      "Marathi"
+    ],
+    "past_complaints_handled": 112,
+    "performance_score": 0.62
+  },
+  {
+    "officer_id": "OFC017",
+    "name": "Vyanjana Pant",
+    "department": "Health",
+    "skills": [
+      "animal control",
+      "health camp",
+      "vaccination"
+    ],
+    "experience_years": 3,
+    "current_workload": 5,
+    "max_workload": 10,
+    "avg_resolution_days": 2.9,
+    "languages_known": [
+      "English",
+      "Malayalam"
+    ],
+    "past_complaints_handled": 191,
+    "performance_score": 0.93
+  },
+  {
+    "officer_id": "OFC018",
+    "name": "Hamsini Sule",
+    "department": "Revenue",
+    "skills": [
+      "dispute resolution",
+      "auditing"
+    ],
+    "experience_years": 7,
+    "current_workload": 4,
+    "max_workload": 10,
+    "avg_resolution_days": 6.2,
+    "languages_known": [
+      "English"
+    ],
+    "past_complaints_handled": 89,
+    "performance_score": 0.7
+  },
+  {
+    "officer_id": "OFC019",
+    "name": "Krishna Mukherjee",
+    "department": "Revenue",
+    "skills": [
+      "auditing",
+      "certification",
+      "tax collection"
+    ],
+    "experience_years": 8,
+    "current_workload": 8,
+    "max_workload": 10,
+    "avg_resolution_days": 9.3,
+    "languages_known": [
+      "English",
+      "Marathi",
+      "Hindi"
+    ],
+    "past_complaints_handled": 250,
+    "performance_score": 0.74
+  },
+  {
+    "officer_id": "OFC020",
+    "name": "Dalaja Bhandari",
+    "department": "Revenue",
+    "skills": [
+      "auditing",
+      "dispute resolution",
+      "property assessment"
+    ],
+    "experience_years": 7,
+    "current_workload": 6,
+    "max_workload": 10,
+    "avg_resolution_days": 3.3,
+    "languages_known": [
+      "English",
+      "Hindi"
+    ],
+    "past_complaints_handled": 289,
+    "performance_score": 0.68
+  }
+]

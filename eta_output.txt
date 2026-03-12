@@ -1,0 +1,21 @@
+Generating embeddings for 3300 complaints...
+Training Random Forest Regressor on 2640 samples, testing on 660...
+
+MAE: 1.2524
+RMSE: 1.6096
+Model saved to saved_models/eta_model.pkl
+Encoder saved to saved_models/category_encoder.pkl
+
+--- ETA Predictions ---
+Text: Sewage overflow causing health hazard
+  Priority: high, Category: Sanitation
+  -> Predicted ETA: 2 days
+
+Text: Billing query for last month
+  Priority: low, Category: Revenue
+  -> Predicted ETA: 11 days
+
+Text: No water supply for 3 days
+  Priority: high, Category: Water Supply
+  -> Predicted ETA: 3 days
+

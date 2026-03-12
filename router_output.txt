@@ -1,0 +1,21 @@
+Officer index built with 20 officers
+
+Complaint: Water pipe burst flooding the street
+Priority: high
+--------------------------------------------------
+  1. OFC010 - Ayaan Keer
+     Dept: Water Supply, Similarity: 0.4303, Score: 0.5902, Workload: 2
+  2. OFC009 - Frederick Raghavan
+     Dept: Water Supply, Similarity: 0.3094, Score: 0.5186, Workload: 4
+  3. OFC003 - Victor Suri
+     Dept: Infrastructure, Similarity: 0.3388, Score: 0.4993, Workload: 2
+
+Complaint: Illegal encroachment on public land
+Priority: low
+--------------------------------------------------
+  1. OFC006 - Ayush Kadakia
+     Dept: Sanitation, Similarity: 0.1785, Score: 0.4611, Workload: 4
+  2. OFC003 - Victor Suri
+     Dept: Infrastructure, Similarity: 0.232, Score: 0.4352, Workload: 2
+  3. OFC010 - Ayaan Keer
+     Dept: Water Supply, Similarity: 0.1283, Score: 0.409, Workload: 2

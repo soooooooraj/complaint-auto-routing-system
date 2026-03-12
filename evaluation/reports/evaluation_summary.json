@@ -1,0 +1,60 @@
+{
+    "standard_test_accuracy": 0.98,
+    "priority_f1_weighted": 0.9802,
+    "eta_mae": 1.29,
+    "eta_rmse": 1.6217,
+    "total_test_samples": 100,
+    "stress_test_predictions": [
+        {
+            "text": "The situation has been going on for a while now",
+            "prediction": "high",
+            "confidence": 0.3519
+        },
+        {
+            "text": "Things are not working properly in our area",
+            "prediction": "medium",
+            "confidence": 0.3703
+        },
+        {
+            "text": "We need someone to look into this matter urgently",
+            "prediction": "high",
+            "confidence": 0.3497
+        },
+        {
+            "text": "This has been reported before but nothing happened",
+            "prediction": "low",
+            "confidence": 0.3951
+        },
+        {
+            "text": "The problem is getting worse every day",
+            "prediction": "medium",
+            "confidence": 0.4191
+        },
+        {
+            "text": "Multiple residents have complained about this",
+            "prediction": "medium",
+            "confidence": 0.4171
+        },
+        {
+            "text": "This is affecting our daily routine significantly",
+            "prediction": "medium",
+            "confidence": 0.3934
+        },
+        {
+            "text": "We request immediate attention to this matter",
+            "prediction": "high",
+            "confidence": 0.3916
+        },
+        {
+            "text": "The authorities have been unresponsive so far",
+            "prediction": "medium",
+            "confidence": 0.3697
+        },
+        {
+            "text": "This needs to be fixed as soon as possible",
+            "prediction": "high",
+            "confidence": 0.3996
+        }
+    ],
+    "timestamp": "2026-03-11 19:43:42"
+}

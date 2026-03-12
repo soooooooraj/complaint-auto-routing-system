@@ -1,0 +1,21 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchaudio
+sentence-transformers
+faiss-cpu
+scikit-learn
+pandas
+numpy
+fastapi
+uvicorn
+openai-whisper
+langdetect
+deep-translator
+faker
+ffmpeg-python
+pydantic
+python-multipart
+matplotlib
+seaborn
+joblib
+imageio-ffmpeg
