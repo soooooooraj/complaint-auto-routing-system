@@ -93,7 +93,7 @@ complaint-routing-system/
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/complaint-auto-routing-system.git
+git clone https://github.com/soooooooraj/complaint-auto-routing-system.git
 cd complaint-auto-routing-system
 
 # Create virtual environment
