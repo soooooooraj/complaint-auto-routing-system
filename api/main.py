@@ -80,7 +80,9 @@ def _run_inference_pipeline(clean_text, detected_lang, start_time):
     if not similar:
         raise HTTPException(status_code=500, detail="Similarity search failed")
     
-    inferred_category = similar[0]["category"]
+    # Majority voting for category
+    categories = [s["category"] for s in similar]
+    inferred_category = max(set(categories), key=categories.count)
     
     # 4. ETA Regression
     eta_days = predict_eta(clean_text, priority, inferred_category, reg=eta_model, cat_encoder=category_encoder)
