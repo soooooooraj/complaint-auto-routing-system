@@ -86,7 +86,7 @@ def _run_inference_pipeline(clean_text, detected_lang, start_time):
     eta_days = predict_eta(clean_text, priority, inferred_category, reg=eta_model, cat_encoder=category_encoder)
     
     # 5. Officer Routing
-    officers_list = route_complaint(clean_text, priority, top_k=3, embeddings=officer_embeddings, mapping=officer_mapping)
+    officers_list = route_complaint(clean_text, priority, category=inferred_category, top_k=3, embeddings=officer_embeddings, mapping=officer_mapping)
     
     processing_time = (time.time() - start_time) * 1000
     

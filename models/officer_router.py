@@ -39,25 +39,39 @@ def build_officer_index():
     print(f"Officer index built with {len(officers)} officers")
 
 
-def route_complaint(complaint_text, priority, top_k=3, embeddings=None, mapping=None):
+def route_complaint(complaint_text, priority, category=None, top_k=3, embeddings=None, mapping=None):
     """
     Embed complaint, compare against officer embeddings using cosine similarity.
+    Filter by predicted category first. Fallback to all if < 3 found.
     Filter out overloaded officers. Score with:
       60% semantic similarity + 30% performance + 10% workload availability.
     Return top_k officers.
     """
-    officer_embeddings = embeddings if embeddings is not None else joblib.load(EMBEDDINGS_PATH)
+    officer_embeddings_all = embeddings if embeddings is not None else joblib.load(EMBEDDINGS_PATH)
 
     if mapping is None:
         with open(MAPPING_PATH, 'r', encoding='utf-8') as f:
-            officers = json.load(f)
+            officers_all = json.load(f)
     else:
-        officers = mapping
+        officers_all = mapping
+
+    # Step 1: Filter by category (Hard Filter)
+    officers = officers_all
+    officer_embeddings = officer_embeddings_all
+
+    if category:
+        filtered_indices = [i for i, o in enumerate(officers_all) if o['department'] == category]
+        # Fallback: If < 3 officers in this dept, use all officers
+        if len(filtered_indices) >= 3:
+            officers = [officers_all[i] for i in filtered_indices]
+            officer_embeddings = officer_embeddings_all[filtered_indices]
+        else:
+            print(f"Fallback: Only {len(filtered_indices)} officers in {category}. Using all officers.")
 
     complaint_emb = get_embedding(complaint_text)
     complaint_emb = np.array([complaint_emb]).astype('float32')
 
-    # Cosine similarity between complaint and all officer profiles
+    # Cosine similarity between complaint and candidate officer profiles
     similarities = cosine_similarity(complaint_emb, officer_embeddings)[0]
 
     scored = []
